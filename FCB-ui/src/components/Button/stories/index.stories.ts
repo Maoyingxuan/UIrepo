@@ -2,7 +2,8 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 
 import { Button } from '../Button';
-
+import { Custom } from './Custom.stories';
+import CustomSource from "./Custom.stories?raw"
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
   title: 'Example/Button',
@@ -51,5 +52,11 @@ export const Small: Story = {
     label: 'Button',
   },
 };
-
+(Custom as any).parameters = {
+  docs: {
+    source: {
+      code: CustomSource,
+    },
+  },
+};
 export {Custom} from './Custom.stories'
