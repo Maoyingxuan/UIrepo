@@ -11,9 +11,12 @@
     "storybook": "storybook dev -p 6006",
     "sk": "pnpm run storybook",
     "sk-docs": "storybook dev --docs",
-    "test": "vitest"
+    "test": "vitest",
+    "build-storybook-docs": "storybook build --docs"
+
   },
   "dependencies": {
+    "@ctrl/tinycolor": "^4.1.0",
     "@griffel/react": "^1.5.30",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

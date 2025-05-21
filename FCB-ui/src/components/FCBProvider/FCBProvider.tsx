@@ -4,10 +4,11 @@ import type {Theme} from "FCB-ui"
 //props context
 import React from "react";
 import { useStyles } from "./useStyles.styles";
+import { webLightTheme } from "FCB-ui";
 type ThemeContextValue = Theme | Partial<Theme> | undefined
 
 const ThemeContext = React.createContext<ThemeContextValue>(undefined);
-export const FCBProvider = ({className, theme, children , ...restProps}:any) => {
+export const FCBProvider = ({className, theme= webLightTheme, children , ...restProps}:any) => {
     const cls = useStyles({className, theme})
     return(
         <ThemeContext.Provider value={theme} {...restProps}>
