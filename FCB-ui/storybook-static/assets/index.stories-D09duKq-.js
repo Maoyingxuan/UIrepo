@@ -1,4 +1,4 @@
-import{f as S}from"./index-B7YJKKKT.js";import{m as f,B}from"./FCBProvider-nCQs_iNQ.js";import{j as a}from"./jsx-runtime-D_zvdyIk.js";import"./index-D4lIrffr.js";const k=f({root:{backgroundColor:"red",padding:"100px",border:"10px solid pink"}}),x=()=>{const C=k();return a.jsx("div",{className:C.root,children:a.jsx(B,{primary:!0,label:"Button"})})};x.__docgenInfo={description:"",methods:[],displayName:"Custom"};const j=`import { Button, tokens } from "FCB-ui";
+import{fn as S}from"./index-i7od9_os.js";import{m as f,B}from"./FCBProvider-C54X4kKq.js";import{j as a}from"./jsx-runtime-BjG_zV1W.js";import"./index-CP2yOfOm.js";const k=f({root:{backgroundColor:"red",padding:"100px",border:"10px solid pink"}}),x=()=>{const C=k();return a.jsx("div",{className:C.root,children:a.jsx(B,{primary:!0,label:"Button"})})};x.__docgenInfo={description:"",methods:[],displayName:"Custom"};const j=`import { Button } from "FCB-ui";
 import { makeStyles } from "@griffel/react";
 
 
