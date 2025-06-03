@@ -5,7 +5,7 @@ import { Button } from '../Button';
 import { Custom } from './Custom.stories';
 import CustomSource from "./Custom.stories?raw"
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
-const meta = {
+const meta:Meta<typeof Button> = {
   title: 'Example/Button',
   component: Button,
   parameters: {
