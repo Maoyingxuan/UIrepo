@@ -11,9 +11,9 @@
   "main": "dist/fcb-ui.cjs.js",
   "module": "dist/fcb-ui.es.js",
   "types": "dist/index.d.ts",
-  "exports":{
-    ".":{
-        "import": "./dist/fcb-ui.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/fcb-ui.es.js",
       "require": "./dist/fcb-ui.cjs.js",
       "types": "./dist/index.d.ts"
     }
@@ -51,6 +51,7 @@
     "@storybook/react": "^8.2.4",
     "@storybook/react-vite": "^8.2.4",
     "@storybook/test": "^8.2.4",
+    "@storybook/types": "^8.6.14",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.0.0",
     "@types/react": "^18.3.3",
@@ -58,6 +59,8 @@
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "codesandbox-import-utils": "^2.2.3",
+    "dedent": "^1.6.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
