@@ -9,6 +9,14 @@ import {
   teamsHighContrastTheme,
 } from "FCB-ui";
 
+const themeMap = {
+  webLight: webLightTheme,
+  webDark: webDarkTheme,
+  teamsLight: teamsLightTheme,
+  teamsDark: teamsDarkTheme,
+  teamsHC: teamsHighContrastTheme,
+};
+
 const useStyles = makeStyles({
   provider: {
     border: "1px",
@@ -25,16 +33,16 @@ const useStyles = makeStyles({
   },
 });
 
-export const Default = () => {
+export const Default = ({theme}:{theme: keyof typeof themeMap}) => {
   const styles = useStyles();
   return (
     <>
       <div>
-        <FCBProvider className={styles.provider} theme={webLightTheme}>
+        <FCBProvider className={styles.provider} theme={themeMap[theme]}>
           <div className={styles.text}>Web Light Theme</div>
         </FCBProvider>
       </div>
-      <div>
+      {/* <div>
         <FCBProvider className={styles.provider} theme={teamsLightTheme}>
           <div className={styles.text}>Teams Light Theme</div>
         </FCBProvider>
@@ -56,7 +64,19 @@ export const Default = () => {
         >
           <div className={styles.text}>teamsHighContrastTheme</div>
         </FCBProvider>
-      </div>
+      </div> */}
     </>
   );
+};
+
+Default.args = {
+  theme: 'webLight',
+};
+
+Default.argTypes = {
+  theme: {
+    control: 'radio',
+    options: Object.keys(themeMap),
+    description: '切换主题',
+  },
 };

@@ -39,7 +39,7 @@ const personaColorPaletteTokens = personaSharedColorNames.reduce((acc, sharedCol
 export const colorPaletteTokens: ColorPaletteTokens = { ...statusColorPaletteTokens, ...personaColorPaletteTokens };
 
 export const colorStatusTokens: ColorStatusTokens = Object.entries(statusColorMapping).reduce(
-  (acc, [statusColor, sharedColor]) => {
+  (acc, [statusColor, _sharedColor]) => {
     const color = statusColor.slice(0, 1).toUpperCase() + statusColor.slice(1);
 
     // TODO: double check the mapping with design

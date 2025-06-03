@@ -1,5 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { fn } from '@storybook/test';
+import type { Meta } from '@storybook/react';
 import { FCBProvider } from '../FCBProvider';
 import { Default } from "./Default.stories";
 import { Nested } from './Nested.stories';
