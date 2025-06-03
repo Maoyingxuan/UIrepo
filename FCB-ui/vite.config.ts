@@ -9,7 +9,7 @@ function resolve(str: string) {
 }
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), dts({rollupTypes: true})],
+  plugins: [react(), dts({rollupTypes: true},)],
   resolve: {
     alias: {
       "FCB-ui": path.resolve(__dirname, "./src"),

@@ -8,9 +8,16 @@
     "type": "git",
     "url": "https://github.com/Maoyingxuan/UIrepo"
   },
-  "main": "dist/FCB-ui-sy.cjs.js",
-  "module": "dist/FCB-ui-sy.es.js",
+  "main": "dist/fcb-ui.cjs.js",
+  "module": "dist/fcb-ui.es.js",
   "types": "dist/index.d.ts",
+  "exports":{
+    ".":{
+        "import": "./dist/fcb-ui.es.js",
+      "require": "./dist/fcb-ui.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "publishConfig": {
     "access": "public"
   },
