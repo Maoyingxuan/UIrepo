@@ -42,11 +42,12 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
-    "@storybook/addon-essentials": "^8.2.4",
+    "@storybook/addon-essentials": "^8.6.14",
     "@storybook/addon-interactions": "^8.2.4",
     "@storybook/addon-links": "^8.2.4",
     "@storybook/addon-onboarding": "^8.2.4",
     "@storybook/blocks": "^8.2.4",
+    "@storybook/experimental-addon-test": "^8.6.14",
     "@storybook/react": "^8.2.4",
     "@storybook/react-vite": "^8.2.4",
     "@storybook/test": "^8.2.4",

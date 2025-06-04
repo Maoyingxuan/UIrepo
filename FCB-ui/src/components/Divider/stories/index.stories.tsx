@@ -7,27 +7,25 @@ import { FCBProvider ,tokens} from 'FCB-ui';
 const meta = {
   title: 'components/Divider',
   component: Divider,
-  decorators:[
-    (Story)=>(
-      <FCBProvider>
-        <div style={
-          {
-            padding:"48px, 24px",
-            backgroundColor: tokens.colorNeutralBackground2
-          }
-        }>
-        <Story />
-        </div>
-      </FCBProvider>
-    )
-  ]
+    argTypes: {
+    alignContent: {
+      control: 'radio',
+      options: ['start', 'center', 'end'],
+    },
+    appearance: {
+      control: 'radio',
+      options: ['brand', 'default', 'strong', 'subtle'],
+    },
+    inset: {
+      control: 'boolean',
+    },
+    vertical: {
+      control: 'boolean',
+    },
+  },
 }  satisfies Meta<typeof Divider> 
 
 export default meta;
-type Story = StoryObj<typeof meta>;
-export const Primary: Story = {
-
-};
 
 (Default as any).parameters = {
   docs: {

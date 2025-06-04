@@ -1,6 +1,6 @@
 import { Divider } from "FCB-ui";
-export const Default = () => {
+export const Default = (args: React.ComponentProps<typeof Divider>) => {
     return(
-        <Divider>123</Divider>
+        <Divider {...args}>Test</Divider>
     )
 }
