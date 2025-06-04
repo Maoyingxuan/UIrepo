@@ -26,7 +26,7 @@ export { Default };
 (Nested as any).parameters = {
   docs: {
     description: {
-      story: "FishProvider可以嵌套使用。",
+      story: "FcbProvider可以嵌套使用。",
     },
   },
   source: {

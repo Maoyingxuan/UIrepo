@@ -42,7 +42,7 @@ function Child() {
   return (
     <div className={styles.example}>
       <div className={styles.text}>
-        Child Nested FishProvider with partial theme
+        Child Nested FcbProvider with partial theme
       </div>
     </div>
   );
