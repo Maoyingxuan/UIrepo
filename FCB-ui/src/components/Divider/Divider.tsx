@@ -1,6 +1,6 @@
 import React from "react"
 import type { ForwardRefComponent } from "../../utils/types";
-import { dividerClassNames, useBaseStyles, useHorizontalStyles, useVerticalStyles } from "./stories/useDividerStyles.styles";
+import { dividerClassNames, useBaseStyles, useHorizontalStyles, useVerticalStyles } from "./useDividerStyles.styles";
 import { mergeClasses } from "@griffel/react";
 
 

@@ -1,8 +1,7 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { Divider } from "../Divider";
+import type { Meta } from '@storybook/react';
+import { Divider } from "FCB-ui";
 import { Default } from './Default.stories';
 import DefaultSource from "./Default.stories?raw";
-import { FCBProvider ,tokens} from 'FCB-ui';
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
   title: 'components/Divider',
