@@ -14,8 +14,7 @@
   "exports": {
     ".": {
       "import": "./dist/fcb-ui.es.js",
-      "require": "./dist/fcb-ui.cjs.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/fcb-ui.cjs.js"
     }
   },
   "publishConfig": {
