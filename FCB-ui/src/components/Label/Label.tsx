@@ -2,7 +2,7 @@ import { ForwardRefComponent } from "FCB-ui"
 import React, { ReactNode } from "react"
 import { labelClassNames,useStyles } from "./useLabelStyles.styles";
 import { mergeClasses } from "@griffel/react";
-export type Textprops =  React.LabelHTMLAttributes<HTMLLabelElement> &  {
+export type Labelprops =  React.LabelHTMLAttributes<HTMLLabelElement> &  {
       /**
    * 禁用
    * @default false
@@ -28,7 +28,7 @@ export type Textprops =  React.LabelHTMLAttributes<HTMLLabelElement> &  {
    */
   weight?: "regular" | "semibold";
 }
-export const Label: ForwardRefComponent<Textprops> = React.forwardRef((
+export const Label: ForwardRefComponent<Labelprops> = React.forwardRef((
     {
         disabled = false,
         required = false,
@@ -42,7 +42,7 @@ export const Label: ForwardRefComponent<Textprops> = React.forwardRef((
 )=>{
     const styles = useStyles()
     return (
-<label
+    <label
         ref={ref as React.Ref<HTMLLabelElement>}
         className={mergeClasses(
           labelClassNames.root,
@@ -71,4 +71,6 @@ export const Label: ForwardRefComponent<Textprops> = React.forwardRef((
     )
 }
 )
+Label.displayName = "Label";
+
 
