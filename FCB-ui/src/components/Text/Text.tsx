@@ -87,7 +87,8 @@ export const Text: ForwardRefComponent<Textprops> = React.forwardRef((
     weight = "regular",
     wrap = true,
     className,
-    children
+    children,
+    ...rest
   },
   ref
 ) => {
@@ -126,6 +127,7 @@ export const Text: ForwardRefComponent<Textprops> = React.forwardRef((
           className,
         )
       }
+      {...rest}
     >{children}</span>
   );
 })

@@ -2,6 +2,8 @@ import type { Meta } from '@storybook/react';
 import { Text } from "FCB-ui";
 import { Default } from './Default.stories';
 import DefaultSource from "./Default.stories?raw";
+import { Change } from './Change.stories';
+import  ChangeSource  from './Change.stories?raw';
 const meta = {
   title: 'components/Text',
   component: Text,
@@ -73,4 +75,16 @@ export default meta;
   },
 };
 
+(Change as any).parameters = {
+  docs: {
+    description: {
+      story: "属性可以自己追加",
+    },
+    source: {
+      code: ChangeSource,
+    },
+  },
+};
+
 export { Default };
+export {Change}

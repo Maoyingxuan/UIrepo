@@ -2,7 +2,7 @@ import type { Theme, PartialTheme } from "FCB-ui";
 
 /**
  * 根据theme，创建一个css规则，
- * .fish-ui-FishProviderr0 {
+ * .fcb-ui-FCB {
  *    --borderRadiusNone: 0;
  *    --borderRadiusSmall: 2px;
  *    略...
