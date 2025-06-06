@@ -10,6 +10,8 @@ import {
   useRootClassName,
   useRootStyles,
 } from "./useInputStyles.styles";
+import { useControllableState } from "../../utils/useControllableState";
+import {useEventCallback} from "../../utils/useEventCallback";
 type ContentType = {
   contentBefore?: React.ReactNode;
   contentAfter?: React.ReactNode;
@@ -100,7 +102,7 @@ export const Input: ForwardRefComponent<InputProps> = React.forwardRef((
       size = "medium",
       appearance = "outline",
       defaultValue, // 非受控组件
-      value: _value = "",
+      value: _value = undefined, // 受控组件
       onChange,
       contentBefore,
       contentAfter,
@@ -118,7 +120,11 @@ export const Input: ForwardRefComponent<InputProps> = React.forwardRef((
       contentStyles[size],
     ];
     const inputStyles = useInputElementStyles();
-    const [value, setValue] = React.useState(_value);
+    const [value, setValue] = useControllableState({
+      defaultState: defaultValue,
+      state: _value,
+      initialState: "",
+    });
     return(
         <span className={
             mergeClasses(
@@ -158,11 +164,17 @@ export const Input: ForwardRefComponent<InputProps> = React.forwardRef((
             disabled && inputStyles.disabled,
           )}
           value={value}
-          onChange={(e)=>{
+          // defaultValue={defaultValue}
+          // onChange={(e)=>{
+          //   const newval = e.target.value
+          //   onChange?.(e,{value:newval})
+          //   setValue(newval)
+          // }}
+          onChange={useEventCallback((e)=>{
             const newval = e.target.value
             onChange?.(e,{value:newval})
             setValue(newval)
-          }}
+          })}
         {...rest} />
         {contentAfter && (
           <span

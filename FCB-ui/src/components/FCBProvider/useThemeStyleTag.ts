@@ -22,7 +22,7 @@ const createStyleTag = (
 
 const insertSheet = (tag: HTMLStyleElement, rule: string) => {
   const sheet = tag.sheet;
-  console.log(sheet)
+  // console.log(sheet)
   if (sheet) {
     if (sheet.cssRules.length > 0) {
       sheet.deleteRule(0);
@@ -30,7 +30,7 @@ const insertSheet = (tag: HTMLStyleElement, rule: string) => {
 
     sheet.insertRule(rule);
   }
-  console.log(sheet)
+  // console.log(sheet)
 };
 
 export const useThemeStyleTag = ({ theme }: any) => {
