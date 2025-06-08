@@ -2,7 +2,9 @@ import {  useId, Input, Label, InputProps } from "FCB-ui";
 
 const onChange = (ev: React.ChangeEvent<HTMLInputElement>) => {
   // Uncontrolled inputs can be notified of changes to the value
-  console.log(`New value: "${ev.target.value}"`);
+  setTimeout(() => {
+      console.log(`New value: "${ev.target.value}"`);
+  }, 1000);
 };
 
 export const uncontrolled = () => {

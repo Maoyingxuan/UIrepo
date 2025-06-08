@@ -23,13 +23,15 @@ export const useEventCallback = <Args extends unknown[], Return>(
   // ssr
   // useEffect | useLayoutEffect
   useIsomorphicLayoutEffect(() => {
-    console.log('fn刷新了')
+    // console.log('fn刷新')
     callbackRef.current = fn;
   }, [fn]);
 
-  return useConst( () => 
-    (...args: Args) => {
-    const callback = callbackRef.current;
-    return callback(...args);
+  return useConst(() => {
+    // console.log('[useEventCallback] created only once');
+    return (...args: Args) => {
+      const callback = callbackRef.current;
+      return callback(...args);
+    };
   });
 };
