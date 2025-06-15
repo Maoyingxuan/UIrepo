@@ -2,8 +2,8 @@ import { makeStyles } from "@griffel/react";
 import { tokens } from "FCB-ui";
 
 export const labelClassNames = {
-  root: "fish-ui-Label",
-  required: "fish-ui-Label__required",
+  root: "fcb-ui-Label",
+  required: "fcb-ui-Label__required",
 };
 
 /**
