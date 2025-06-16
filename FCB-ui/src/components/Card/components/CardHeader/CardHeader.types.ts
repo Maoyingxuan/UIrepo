@@ -4,7 +4,7 @@ export type CardHeaderProps = React.HTMLAttributes<HTMLDivElement> & {
   /**
    * Element used to render an image or avatar related to the card.
    */
-  image?: HTMLImageElement;
+  image?: React.ReactNode;
 
   /**
    * Element used to render the main header title.
