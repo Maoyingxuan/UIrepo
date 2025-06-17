@@ -18,3 +18,4 @@ export * from "./components/Page";
 export * from "./components/FCBProvider"
 export * from "./components/Card"
 export * from "./components/Flex"
+export * from "./components/Space"
