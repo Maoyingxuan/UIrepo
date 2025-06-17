@@ -5,6 +5,7 @@ export * from "./utils/useId"
 export * from "./utils/canUseDOM"
 export * from "./utils/useControllableState"
 export * from "./utils/useIsomorphicLayoutEffect"
+export * from "./utils/gapSize"
 export * from "./components/Divider"
 export * from "./components/Text"
 export * from "./components/Label"
@@ -16,3 +17,4 @@ export * from "./components/Header";
 export * from "./components/Page";
 export * from "./components/FCBProvider"
 export * from "./components/Card"
+export * from "./components/Flex"
