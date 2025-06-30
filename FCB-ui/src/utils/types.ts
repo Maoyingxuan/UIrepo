@@ -6,3 +6,6 @@ export type ForwardRefComponent<Props> = React.ForwardRefExoticComponent<
 >;
 
 export type SizeType = "small" | "medium" | "large";
+export type ContextSelector<Value, SelectedValue> = (
+  value: Value
+) => SelectedValue;
