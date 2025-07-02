@@ -1,10 +1,11 @@
-import React from "react";
 import type { ForwardRefComponent } from "FCB-ui";
+import { isPresetSize, isValidGapNumber } from "FCB-ui";
+import React from "react";
+
+import { SpaceContextProvider, SpaceContextType } from "./context";
+import Item from "./Item";
 import { SpaceProps } from "./Space.types";
 import { useSpaceStyles } from "./useSpaceStyles.styles";
-import { isPresetSize, isValidGapNumber } from "FCB-ui";
-import Item from "./Item";
-import { SpaceContextProvider, SpaceContextType } from "./context";
 
 export const Space: ForwardRefComponent<SpaceProps> = React.forwardRef(
   (props, ref) => {

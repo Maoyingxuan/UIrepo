@@ -1,5 +1,6 @@
-import { makeStyles, mergeClasses } from "@griffel/react";
 import { WatermarkProps } from "FCB-ui";
+
+import { makeStyles, mergeClasses } from "@griffel/react";
 
 /**
  * Static CSS class names used internally for the component slots.

@@ -1,14 +1,14 @@
-import * as React from "react";
 import {
+  Button,
   Dialog,
+  DialogActions,
+  DialogBody,
+  DialogContent,
   DialogSurface,
   DialogTitle,
-  DialogContent,
-  DialogActions,
   DialogTrigger,
-  DialogBody,
-  Button,
 } from "FCB-ui";
+import * as React from "react";
 
 const TriggerOutsideDialog = () => {
   const [open, setOpen] = React.useState(false);

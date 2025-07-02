@@ -1,7 +1,8 @@
-import * as React from "react";
-import { makeStyles } from "@griffel/react";
-import { teamsLightTheme } from "FCB-ui";
 import type { CurveTokens, DurationTokens } from "FCB-ui";
+import { teamsLightTheme } from "FCB-ui";
+import * as React from "react";
+
+import { makeStyles } from "@griffel/react";
 
 const theme = teamsLightTheme;
 

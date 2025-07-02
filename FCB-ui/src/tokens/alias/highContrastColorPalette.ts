@@ -1,7 +1,7 @@
-import { hcHighlight, hcCanvas, hcCanvasText } from '../global/colors';
-import { statusSharedColorNames, personaSharedColorNames } from '../sharedColorNames';
-import type { ColorPaletteTokens, ColorStatusTokens, PersonaColorPaletteTokens, StatusColorPaletteTokens } from '../types';
+import { hcCanvas, hcCanvasText,hcHighlight } from '../global/colors';
+import { personaSharedColorNames,statusSharedColorNames } from '../sharedColorNames';
 import { statusColorMapping } from '../statusColorMapping';
+import type { ColorPaletteTokens, ColorStatusTokens, PersonaColorPaletteTokens, StatusColorPaletteTokens } from '../types';
 
 const statusColorPaletteTokens = statusSharedColorNames.reduce((acc, sharedColor) => {
   const color = sharedColor.slice(0, 1).toUpperCase() + sharedColor.slice(1);

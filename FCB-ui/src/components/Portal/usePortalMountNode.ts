@@ -1,8 +1,9 @@
 import { useInsertionEffect } from "react";
-import { usePortalMountNodeContext } from "./PortalMountNodeContext";
-import { mergeClasses } from "@griffel/react";
 import { useDisposable } from "use-disposable";
 
+import { mergeClasses } from "@griffel/react";
+
+import { usePortalMountNodeContext } from "./PortalMountNodeContext";
 import { usePortalMountNodeStylesStyles } from "./usePortalMountNodeStyles.styles";
 
 export type UsePortalMountNodeOptions = {

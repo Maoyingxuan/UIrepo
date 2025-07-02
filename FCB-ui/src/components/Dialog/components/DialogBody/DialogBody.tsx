@@ -1,6 +1,7 @@
-import * as React from "react";
-import type { DialogBodyProps } from "./DialogBody.types";
 import { ForwardRefComponent } from "FCB-ui";
+import * as React from "react";
+
+import type { DialogBodyProps } from "./DialogBody.types";
 import { useDialogBodyStyles } from "./useDialogBodyStyles.styles";
 
 /**

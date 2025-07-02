@@ -1,14 +1,14 @@
-import * as React from "react";
 import {
+  Button,
   Dialog,
-  DialogTrigger,
+  DialogActions,
+  DialogBody,
+  DialogContent,
   DialogSurface,
   DialogTitle,
-  DialogContent,
-  DialogBody,
-  DialogActions,
-  Button,
+  DialogTrigger,
 } from "FCB-ui";
+import * as React from "react";
 
 export const ChangeFocus = () => {
   const buttonRef = React.useRef<HTMLButtonElement>(null);

@@ -1,8 +1,11 @@
-import type { Meta } from '@storybook/react';
 import { Text } from "FCB-ui";
+
+import type { Meta } from '@storybook/react';
+
+import { RadioGroup } from '../RadioGroup';
+
 import { Default } from './Default.stories';
 import DefaultSource from "./Default.stories?raw";
-import { RadioGroup } from '../RadioGroup';
 
 const meta = {
   title: 'components/RadioGroup',

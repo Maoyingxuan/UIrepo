@@ -1,11 +1,11 @@
 import {
-  Dialog,
-  DialogTrigger,
-  DialogSurface,
-  DialogContent,
-  DialogTitle,
-  DialogBody,
   Button,
+  Dialog,
+  DialogBody,
+  DialogContent,
+  DialogSurface,
+  DialogTitle,
+  DialogTrigger,
 } from "FCB-ui";
 
 const NoFocusableElement = () => {

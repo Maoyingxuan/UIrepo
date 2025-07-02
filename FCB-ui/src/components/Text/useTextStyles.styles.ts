@@ -1,5 +1,6 @@
-import { makeStyles } from "@griffel/react";
 import { tokens } from "FCB-ui";
+
+import { makeStyles } from "@griffel/react";
 
 export const textClassNames = {
   root: "FCB-ui-Text",

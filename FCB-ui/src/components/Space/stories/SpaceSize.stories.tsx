@@ -1,5 +1,5 @@
+import { Button, Radio, RadioGroup, SizeType,Space } from "FCB-ui";
 import React from "react";
-import { Button, Space, RadioGroup, Radio, SizeType } from "FCB-ui";
 
 const Size: React.FC = () => {
   const [gapSize, setGapSize] = React.useState<SizeType | "customize">("small");

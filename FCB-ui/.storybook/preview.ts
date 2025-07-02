@@ -1,4 +1,5 @@
 import type { Preview } from '@storybook/react'
+
 import { withFCBProvider } from '../docs/withFCBProvider';
 export const decorators = [withFCBProvider]
 const preview: Preview = {

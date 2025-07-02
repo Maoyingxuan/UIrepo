@@ -1,13 +1,15 @@
-import * as React from "react";
+import type { Theme } from "FCB-ui";
 import {
   teamsDarkTheme,
   teamsHighContrastTheme,
   teamsLightTheme,
-  webLightTheme,
   webDarkTheme,
+  webLightTheme,
 } from "FCB-ui";
-import type { Theme } from "FCB-ui";
+import * as React from "react";
+
 import { makeStyles } from "@griffel/react";
+
 import { ColorRampItem } from "./ColorRamp";
 
 // FIXME: hardcoded theme

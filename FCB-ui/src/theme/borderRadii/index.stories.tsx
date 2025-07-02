@@ -1,5 +1,5 @@
-import { teamsLightTheme } from "FCB-ui";
 import type { BorderRadiusTokens } from "FCB-ui";
+import { teamsLightTheme } from "FCB-ui";
 
 const theme = teamsLightTheme;
 export const BorderRadii = () => {

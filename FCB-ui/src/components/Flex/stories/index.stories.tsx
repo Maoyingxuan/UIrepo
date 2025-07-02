@@ -1,19 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Meta } from "@storybook/react";
 import { Flex } from "FCB-ui";
 
-import Default from "./FlexDefault.stories";
+import { Meta } from "@storybook/react";
+
 import Align from "./FlexAlign.stories";
-import Gap from "./FlexGap.stories";
-import Wrap from "./FlexWrap.stories";
-
-
-import DefaultSource from "./FlexDefault.stories.tsx?raw";
-
 import AlignSource from "./FlexAlign.stories.tsx?raw";
-
+import Default from "./FlexDefault.stories";
+import DefaultSource from "./FlexDefault.stories.tsx?raw";
+import Gap from "./FlexGap.stories";
 import GapSource from "./FlexGap.stories.tsx?raw";
-
+import Wrap from "./FlexWrap.stories";
 import WrapSource from "./FlexWrap.stories.tsx?raw";
 
 
@@ -63,4 +59,4 @@ export default meta;
   },
 };
 
-export { Default, Align, Gap, Wrap };
+export { Align, Default, Gap, Wrap };

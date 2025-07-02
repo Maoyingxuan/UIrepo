@@ -1,8 +1,10 @@
+import { type ForwardRefComponent,Label, useControllableState, useId } from 'FCB-ui';
 import React from 'react';
-import { Label, useControllableState, useId, type ForwardRefComponent } from 'FCB-ui';
+
 import { mergeClasses } from '@griffel/react';
-import { useRadioStyles } from './useRadioStyles.styles';
+
 import { useRadioGroupContextValue } from './context';
+import { useRadioStyles } from './useRadioStyles.styles';
 export type RadioProps = Omit<
   React.InputHTMLAttributes<HTMLInputElement>,
   "onChange" | "size"

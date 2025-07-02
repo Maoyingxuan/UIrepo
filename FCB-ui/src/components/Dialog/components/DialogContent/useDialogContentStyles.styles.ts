@@ -1,6 +1,7 @@
+import { tokens, typographyStyles } from "FCB-ui";
+
 import { makeResetStyles, mergeClasses } from "@griffel/react";
 
-import { tokens, typographyStyles } from "FCB-ui";
 import { MEDIA_QUERY_SHORT_SCREEN } from "../../contexts";
 
 export const dialogContentClassNames = {

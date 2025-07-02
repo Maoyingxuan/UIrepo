@@ -1,10 +1,11 @@
-import { makeStyles } from "@griffel/react";
 import { Button } from "FCB-ui";
 import {
   bundleIcon,
   CalendarMonthFilled,
   CalendarMonthRegular,
 } from "fish-ui-sy-react-icons";
+
+import { makeStyles } from "@griffel/react";
 
 const CalendarMonth = bundleIcon(CalendarMonthFilled, CalendarMonthRegular);
 

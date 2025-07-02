@@ -1,5 +1,5 @@
-import React from "react";
 import { Flex, Radio, RadioGroup } from "FCB-ui";
+import React from "react";
 
 const baseStyle: React.CSSProperties = {
   width: "25%",

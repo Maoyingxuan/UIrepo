@@ -1,5 +1,6 @@
+import { FCBProvider,tokens } from "FCB-ui";
+
 import { makeStyles } from "@griffel/react";
-import { tokens, FCBProvider } from "FCB-ui";
 
 const useStyles = makeStyles({
   example: {

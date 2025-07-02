@@ -1,8 +1,10 @@
-import React from "react";
 import type { ForwardRefComponent } from "FCB-ui";
+import React from "react";
+
+import { isPresetSize } from "../../utils/gapSize";
+
 import { FlexProps } from "./Flex.types";
 import { useFlexStyles } from "./useFlexStyles.styles";
-import { isPresetSize } from "../../utils/gapSize";
 
 export const Flex: ForwardRefComponent<FlexProps> = React.forwardRef(
   (props, ref) => {

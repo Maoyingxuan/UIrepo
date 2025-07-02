@@ -1,11 +1,11 @@
 import {
+  Button,
   Dialog,
-  DialogTrigger,
-  DialogSurface,
-  DialogTitle,
   DialogBody,
   DialogContent,
-  Button,
+  DialogSurface,
+  DialogTitle,
+  DialogTrigger,
 } from "FCB-ui";
 import { Dismiss24Regular } from "fish-ui-sy-react-icons";
 

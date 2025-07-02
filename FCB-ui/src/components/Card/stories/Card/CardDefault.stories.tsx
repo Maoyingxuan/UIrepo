@@ -1,6 +1,7 @@
 
+import { Button, Card, CardFooter, CardHeader, CardPreview , Text} from "FCB-ui";
 import { ArrowReplyRegular, ShareRegular } from "fish-ui-sy-react-icons";
-import { Card, CardFooter, CardHeader, CardPreview , Button, Text} from "FCB-ui";
+
 import { makeStyles } from "@griffel/react";
 
 const resolveAsset = (asset: string) => {

@@ -1,5 +1,7 @@
 import { Meta } from "@storybook/react/*";
+
 import { Checkbox } from "../Checkbox";
+
 import { Default } from "./Default.stories";
 import DefaultSource from "./Default.stories?raw";
 const meta = {

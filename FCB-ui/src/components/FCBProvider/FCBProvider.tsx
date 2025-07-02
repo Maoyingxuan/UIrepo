@@ -1,10 +1,11 @@
 import type {Theme} from "FCB-ui"
+import { webLightTheme } from "FCB-ui";
 //传递theme，使子组件生效
 //跨组件传递参数（theme）
 //props context
 import React from "react";
+
 import { useStyles } from "./useStyles.styles";
-import { webLightTheme } from "FCB-ui";
 type ThemeContextValue = Theme | Partial<Theme> | undefined
 
 const ThemeContext = React.createContext<ThemeContextValue>(undefined);

@@ -1,7 +1,8 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import type { PortalProps } from "./Portal.types";
+
 import { toMountNodeProps } from "./utils/toMountNodeProps";
+import type { PortalProps } from "./Portal.types";
 import { usePortalMountNode } from "./usePortalMountNode";
 
 /**

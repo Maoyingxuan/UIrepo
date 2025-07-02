@@ -1,16 +1,16 @@
-import * as React from "react";
 import {
-  Dialog,
-  DialogTrigger,
-  DialogSurface,
-  DialogTitle,
-  DialogContent,
-  DialogBody,
-  DialogActions,
   Button,
   Checkbox,
   CheckboxOnChangeData,
+  Dialog,
+  DialogActions,
+  DialogBody,
+  DialogContent,
+  DialogSurface,
+  DialogTitle,
+  DialogTrigger,
 } from "FCB-ui";
+import * as React from "react";
 
 const Actions = () => {
   const [checked, setChecked] = React.useState(false);

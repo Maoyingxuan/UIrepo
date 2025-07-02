@@ -1,9 +1,12 @@
-import React from "react";
-import { ForwardRefComponent } from "../../utils/types";
-import { checkboxClassNames, useCheckboxStyles, useInputBaseClassName, useInputStyles, useLabelStyles } from "./useCheckboxstyles.styles";
 import { Label, useControllableState, useId } from "FCB-ui";
+import React from "react";
+
 import { mergeClasses } from "@griffel/react";
+
+import { ForwardRefComponent } from "../../utils/types";
 import { useEventCallback } from "../../utils/useEventCallback";
+
+import { checkboxClassNames, useCheckboxStyles, useInputBaseClassName, useInputStyles, useLabelStyles } from "./useCheckboxstyles.styles";
 
 export type CheckboxProps = Omit<
   React.HTMLAttributes<HTMLInputElement>,

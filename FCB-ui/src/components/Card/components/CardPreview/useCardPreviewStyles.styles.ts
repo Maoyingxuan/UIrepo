@@ -1,4 +1,5 @@
 import { makeStyles, mergeClasses } from "@griffel/react";
+
 import { CardPreviewProps } from "./CardPreview.types";
 
 /**

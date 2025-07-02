@@ -1,14 +1,15 @@
+import { ForwardRefComponent } from "FCB-ui";
+import { Dismiss20Regular } from "fish-ui-sy-react-icons";
 import * as React from "react";
 
-import type { DialogTitleProps } from "./DialogTitle.types";
-import { ForwardRefComponent } from "FCB-ui";
 import { DialogContextValue, useDialogContext } from "../../contexts";
 import { DialogTrigger } from "../DialogTrigger";
+
+import type { DialogTitleProps } from "./DialogTitle.types";
 import {
   useDialogTitleInternalStyles,
   useDialogTitleStyles,
 } from "./useDialogTitleStyles.styles";
-import { Dismiss20Regular } from "fish-ui-sy-react-icons";
 
 /**
  * The `DialogTitle` component expects to have a title/header

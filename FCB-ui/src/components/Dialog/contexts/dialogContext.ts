@@ -1,9 +1,10 @@
 import * as React from "react";
+
+import { ContextSelector } from "../../../utils/types";
 import type {
   DialogModalType,
   DialogOpenChangeData,
 } from "../components/Dialog";
-import { ContextSelector } from "../../../utils/types";
 
 export type DialogContextValue = {
   open: boolean;

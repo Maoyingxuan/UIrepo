@@ -1,11 +1,12 @@
-import * as React from "react";
 import {
-  tokens,
-  Text,
   Card,
   CardHeader,
   type CardProps,
+  Text,
+  tokens,
 } from "FCB-ui";
+import * as React from "react";
+
 import { makeStyles, mergeClasses } from "@griffel/react";
 
 const resolveAsset = (asset: string) => {

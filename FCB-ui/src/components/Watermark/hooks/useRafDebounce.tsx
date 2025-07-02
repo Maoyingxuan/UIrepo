@@ -1,5 +1,7 @@
 import React from "react";
+
 import { useEventCallback } from "../../../utils/useEventCallback";
+
 import raf from "./raf";
 /**
  * Callback will only execute last one for each raf

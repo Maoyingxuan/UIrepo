@@ -1,5 +1,6 @@
-import React from "react";
 import { ForwardRefComponent } from "FCB-ui";
+import React from "react";
+
 import { ButtonProps } from "./Button.types";
 import { useButtonStyles } from "./useButtonStyles.styles";
 
@@ -25,7 +26,7 @@ export const Button: ForwardRefComponent<ButtonProps> = React.forwardRef(
       size,
       ...props,
     });
-
+    console.log("Button styles:", styles);
     let Icon;
     if (icon) {
       Icon = <span className={styles.icon}>{icon}</span>;

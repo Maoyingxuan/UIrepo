@@ -1,4 +1,5 @@
 import { makeStyles, mergeClasses, shorthands } from "@griffel/react";
+
 import { CardHeaderProps } from "./CardHeader.types";
 
 /**

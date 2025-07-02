@@ -1,5 +1,6 @@
+import { isPresetSize, SpaceProps, SpaceSize, tokens } from "FCB-ui";
+
 import { makeStyles, mergeClasses } from "@griffel/react";
-import { SpaceProps, SpaceSize, isPresetSize, tokens } from "FCB-ui";
 
 /**
  * Static CSS class names used internally for the component slots.

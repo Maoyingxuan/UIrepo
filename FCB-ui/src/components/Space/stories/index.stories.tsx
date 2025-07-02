@@ -1,27 +1,21 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Meta } from "@storybook/react";
 import { Space } from "FCB-ui";
 
-import Default from "./SpaceDefault.stories";
-import Direction from "./SpaceDirection.stories";
-import Size from "./SpaceSize.stories";
+import { Meta } from "@storybook/react";
+
 import Align from "./SpaceAlign.stories";
-import Wrap from "./SpaceWrap.stories";
-import Split from "./SpaceSplit.stories";
-
-// ! raw code imports
-
-import DefaultSource from "./SpaceDefault.stories.tsx?raw";
-
-import DirectionSource from "./SpaceDirection.stories.tsx?raw";
-
-import SizeSource from "./SpaceSize.stories.tsx?raw";
-
 import AlignSource from "./SpaceAlign.stories.tsx?raw";
-
-import WrapSource from "./SpaceWrap.stories.tsx?raw";
-
+import Default from "./SpaceDefault.stories";
+// ! raw code imports
+import DefaultSource from "./SpaceDefault.stories.tsx?raw";
+import Direction from "./SpaceDirection.stories";
+import DirectionSource from "./SpaceDirection.stories.tsx?raw";
+import Size from "./SpaceSize.stories";
+import SizeSource from "./SpaceSize.stories.tsx?raw";
+import Split from "./SpaceSplit.stories";
 import SplitSource from "./SpaceSplit.stories.tsx?raw";
+import Wrap from "./SpaceWrap.stories";
+import WrapSource from "./SpaceWrap.stories.tsx?raw";
 
 const meta: Meta = {
   title: "components/Space",
@@ -85,4 +79,4 @@ export default meta;
   },
 };
 
-export { Default, Direction, Size, Align, Wrap, Split };
+export { Align, Default, Direction, Size, Split,Wrap };

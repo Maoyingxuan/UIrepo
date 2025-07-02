@@ -1,4 +1,5 @@
-import { tokens, CheckboxProps } from "FCB-ui";
+import { CheckboxProps,tokens } from "FCB-ui";
+
 import {
   makeResetStyles,
   makeStyles,

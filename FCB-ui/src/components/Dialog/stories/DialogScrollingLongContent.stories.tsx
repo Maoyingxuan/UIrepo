@@ -1,12 +1,12 @@
 import {
+  Button,
   Dialog,
-  DialogTrigger,
-  DialogSurface,
-  DialogTitle,
+  DialogActions,
   DialogBody,
   DialogContent,
-  DialogActions,
-  Button,
+  DialogSurface,
+  DialogTitle,
+  DialogTrigger,
 } from "FCB-ui";
 
 const ScrollingLongContent = () => {

@@ -1,16 +1,18 @@
+import {
+  useControllableState,
+  useId,
+} from "FCB-ui";
 import * as React from "react";
-import type { DialogOpenChangeData, DialogProps } from "./Dialog.types";
+
+import { useEventCallback } from "../../../../utils/useEventCallback";
 import {
   DialogContextValue,
   DialogProvider,
   DialogSurfaceContextValue,
   DialogSurfaceProvider,
 } from "../../contexts";
-import {
-  useControllableState,
-  useId,
-} from "FCB-ui";
-import { useEventCallback } from "../../../../utils/useEventCallback";
+
+import type { DialogOpenChangeData, DialogProps } from "./Dialog.types";
 export const Dialog: React.FC<DialogProps> = React.memo((props) => {
   const {
     children,

@@ -1,5 +1,6 @@
-import { makeResetStyles, makeStyles, mergeClasses } from "@griffel/react";
 import { DialogTitleProps, typographyStyles } from "FCB-ui";
+
+import { makeResetStyles, makeStyles, mergeClasses } from "@griffel/react";
 
 export const dialogTitleClassNames = {
   root: "fish-ui-DialogTitle",

@@ -1,14 +1,16 @@
 import * as React from "react";
-import type { DialogTriggerProps } from "./DialogTrigger.types";
+
+import { useEventCallback } from "../../../../utils/useEventCallback";
 import {
   DialogContextValue,
   useDialogContext,
   useDialogSurfaceContext,
 } from "../../contexts";
-import { getTriggerChild } from "../../utils/trigger/getTriggerChild";
-import { useEventCallback } from "../../../../utils/useEventCallback";
-import type { FcbTriggerComponent } from "../../utils/trigger/types";
 import { applyTriggerPropsToChildren } from "../../utils/trigger/applyTriggerPropsToChildren";
+import { getTriggerChild } from "../../utils/trigger/getTriggerChild";
+import type { FcbTriggerComponent } from "../../utils/trigger/types";
+
+import type { DialogTriggerProps } from "./DialogTrigger.types";
 
 export const DialogTrigger: React.FC<DialogTriggerProps> = (props) => {
   const isInsideSurfaceDialog = useDialogSurfaceContext(); //*

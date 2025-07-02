@@ -1,6 +1,6 @@
-import React from "react";
-import { ArrowUpload16Regular } from "fish-ui-sy-react-icons";
 import { Button, Space, Text } from "FCB-ui";
+import { ArrowUpload16Regular } from "fish-ui-sy-react-icons";
+import React from "react";
 
 const Default: React.FC = () => (
   <Space align="center">

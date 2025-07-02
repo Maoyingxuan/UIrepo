@@ -1,10 +1,11 @@
 import {  Button } from "FCB-ui";
+import { CardFooter } from "FCB-ui";
 import {
   ArrowReply16Regular,
   MoreHorizontal20Regular,
   Share16Regular,
 } from "fish-ui-sy-react-icons";
-import { CardFooter } from "FCB-ui";
+
 import { makeStyles } from "@griffel/react";
 
 const useStyles = makeStyles({

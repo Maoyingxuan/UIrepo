@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import type { FcbTriggerComponent, TriggerProps } from "./types";
 
 /**

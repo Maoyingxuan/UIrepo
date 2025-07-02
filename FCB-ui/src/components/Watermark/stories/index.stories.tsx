@@ -1,12 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Meta } from "@storybook/react";
 import { Watermark } from "FCB-ui";
+
+import { Meta } from "@storybook/react";
+
 import Default from "./WatermarkDefault.stories";
-import Multiline from "./WatermarkMultiline.stories";
-import Image from "./WatermarkImage.stories";
 import DefaultSource from "./WatermarkDefault.stories.tsx?raw";
-import MultilineSource from "./WatermarkMultiline.stories.tsx?raw";
+import Image from "./WatermarkImage.stories";
 import ImageSource from "./WatermarkImage.stories.tsx?raw";
+import Multiline from "./WatermarkMultiline.stories";
+import MultilineSource from "./WatermarkMultiline.stories.tsx?raw";
 
 const meta: Meta = {
   title: "components/Watermark",
@@ -46,4 +48,4 @@ export default meta;
   },
 };
 
-export { Default, Multiline, Image };
+export { Default, Image,Multiline };

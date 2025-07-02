@@ -1,14 +1,14 @@
-import * as React from "react";
 import {
+  Button,
   Dialog,
-  DialogTrigger,
+  DialogActions,
+  DialogBody,
+  DialogContent,
   DialogSurface,
   DialogTitle,
-  DialogActions,
-  DialogContent,
-  DialogBody,
-  Button,
+  DialogTrigger,
 } from "FCB-ui";
+import * as React from "react";
 
 const TitleNoAction = () => {
   return (

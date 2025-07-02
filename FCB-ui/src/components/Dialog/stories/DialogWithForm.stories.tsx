@@ -1,16 +1,17 @@
-import * as React from "react";
 import {
+  Button,
   Dialog,
-  DialogTrigger,
+  DialogActions,
+  DialogBody,
+  DialogContent,
   DialogSurface,
   DialogTitle,
-  DialogContent,
-  DialogBody,
-  DialogActions,
-  Button,
+  DialogTrigger,
   Input,
   Label,
 } from "FCB-ui";
+import * as React from "react";
+
 import { makeStyles } from "@griffel/react";
 
 const useStyles = makeStyles({

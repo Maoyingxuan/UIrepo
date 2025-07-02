@@ -1,5 +1,5 @@
+import { Button, Radio, RadioGroup, Space, SpaceProps } from "FCB-ui";
 import React from "react";
-import { Space, Radio, RadioGroup, Button, SpaceProps } from "FCB-ui";
 
 const boxStyle: React.CSSProperties = {
   height: 120,

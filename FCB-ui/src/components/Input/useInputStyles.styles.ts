@@ -1,4 +1,5 @@
 import { tokens, typographyStyles } from "FCB-ui";
+
 import { makeResetStyles, makeStyles, shorthands } from "@griffel/react";
 
 export const inputClassNames = {

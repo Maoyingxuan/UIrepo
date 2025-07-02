@@ -1,5 +1,6 @@
-import * as React from "react";
 import { type ForwardRefComponent } from "FCB-ui";
+import * as React from "react";
+
 import { CardPreviewProps } from "./CardPreview.types";
 import { useCardPreviewStyles } from "./useCardPreviewStyles.styles";
 

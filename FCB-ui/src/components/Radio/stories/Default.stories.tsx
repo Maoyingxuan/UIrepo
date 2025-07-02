@@ -1,8 +1,9 @@
+import React from "react";
+
+import { Label } from "../../Label";
 import { Radio } from "../Radio";
 import { RadioGroup } from "../RadioGroup";
-import { Label } from "../../Label";
 import { RadioGroupProps } from "../RadioGroup.types";
-import React from "react";
 export const Default = (props: Partial<RadioGroupProps>) => {
   const [value, setValue] = React.useState<string | undefined>("");
     const onchange = (ev: React.FormEvent<HTMLDivElement>, data: { value: string }) => {

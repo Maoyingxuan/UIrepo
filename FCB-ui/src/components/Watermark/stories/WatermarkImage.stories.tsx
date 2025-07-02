@@ -1,5 +1,5 @@
-import React from "react";
 import { Watermark } from "FCB-ui";
+import React from "react";
 
 const Default: React.FC = () => (
   <Watermark

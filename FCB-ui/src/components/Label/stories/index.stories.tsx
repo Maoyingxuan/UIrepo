@@ -1,5 +1,7 @@
-import type { Meta } from '@storybook/react';
 import { Label } from "FCB-ui";
+
+import type { Meta } from '@storybook/react';
+
 import { Default } from './Default.stories';
 import DefaultSource from "./Default.stories?raw";
 

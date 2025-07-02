@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Meta } from "@storybook/react";
 import { Portal } from "FCB-ui";
 
-import Default from "./PortalDefault.stories";
+import { Meta } from "@storybook/react";
 
+import Default from "./PortalDefault.stories";
 // ! raw code imports
 import DefaultSource from "./PortalDefault.stories.tsx?raw";
 

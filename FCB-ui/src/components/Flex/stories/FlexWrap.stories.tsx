@@ -1,5 +1,5 @@
-import React from "react";
 import { Button, Flex } from "FCB-ui";
+import React from "react";
 
 const Wrap: React.FC = () => (
   <Flex wrap gap="small">

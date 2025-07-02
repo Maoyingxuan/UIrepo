@@ -1,6 +1,7 @@
-import { makeStyles } from "@griffel/react";
 import { Button } from "FCB-ui";
 import { CalendarMonthRegular } from "fish-ui-sy-react-icons";
+
+import { makeStyles } from "@griffel/react";
 
 const useStyles = makeStyles({
   wrapper: {

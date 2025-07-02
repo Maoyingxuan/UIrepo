@@ -1,14 +1,14 @@
-import * as React from "react";
 import {
   Button,
   Dialog,
-  DialogSurface,
-  DialogTitle,
+  DialogActions,
   DialogBody,
   DialogContent,
-  DialogActions,
+  DialogSurface,
+  DialogTitle,
   DialogTrigger,
 } from "FCB-ui";
+import * as React from "react";
 
 const CustomDialogTrigger = React.forwardRef((props, ref) => {
   return (

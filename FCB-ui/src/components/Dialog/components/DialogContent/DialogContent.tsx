@@ -1,5 +1,6 @@
-import * as React from "react";
 import { ForwardRefComponent } from "FCB-ui";
+import * as React from "react";
+
 import { DialogContentProps } from "./DialogContent.types";
 import { useDialogContentStyles } from "./useDialogContentStyles.styles";
 

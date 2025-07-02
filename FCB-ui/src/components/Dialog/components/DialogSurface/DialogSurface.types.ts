@@ -1,6 +1,7 @@
 import type { PortalProps } from "FCB-ui";
-import { DialogSurfaceContextValue } from "../../contexts";
 import { ReactNode } from "react";
+
+import { DialogSurfaceContextValue } from "../../contexts";
 
 /**
  * Union between all possible semantic element that represent a DialogSurface

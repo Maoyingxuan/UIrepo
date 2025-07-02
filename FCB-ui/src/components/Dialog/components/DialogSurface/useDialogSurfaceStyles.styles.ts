@@ -1,5 +1,7 @@
-import { makeResetStyles, mergeClasses } from "@griffel/react";
 import { DialogSurfaceProps, tokens } from "FCB-ui";
+
+import { makeResetStyles, mergeClasses } from "@griffel/react";
+
 import {
   FULLSCREEN_DIALOG_SCROLLBAR_OFFSET,
   MEDIA_QUERY_BREAKPOINT_SELECTOR,

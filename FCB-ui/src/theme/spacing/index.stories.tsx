@@ -1,8 +1,8 @@
-import { teamsLightTheme } from "FCB-ui";
 import type {
   HorizontalSpacingTokens,
   VerticalSpacingTokens,
 } from "FCB-ui";
+import { teamsLightTheme } from "FCB-ui";
 
 const theme = teamsLightTheme;
 

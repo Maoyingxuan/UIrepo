@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import { isFishTrigger } from "./isFishTrigger";
 import { TriggerProps } from "./types";
 

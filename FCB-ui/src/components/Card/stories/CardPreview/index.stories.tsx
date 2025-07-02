@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Meta } from "@storybook/react";
 import { CardPreview } from "FCB-ui";
 
-import Default from "./CardPreviewDefault.stories";
+import { Meta } from "@storybook/react";
 
+import Default from "./CardPreviewDefault.stories";
 import DefaultSource from "./CardPreviewDefault.stories.tsx?raw";
 
 (Default as any).parameters = {

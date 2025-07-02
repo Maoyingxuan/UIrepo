@@ -1,8 +1,9 @@
 
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 import path from 'path'
+import { defineConfig } from 'vite'
 import dts from "vite-plugin-dts";
+
+import react from '@vitejs/plugin-react'
 
 function resolve(str: string) {
   return path.resolve(__dirname, str);

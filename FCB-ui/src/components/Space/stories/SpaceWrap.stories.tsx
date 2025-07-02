@@ -1,5 +1,5 @@
-import React from "react";
 import { Button, Space } from "FCB-ui";
+import React from "react";
 
 const Wrap: React.FC = () => (
   <Space size={[8, 16]} wrap>

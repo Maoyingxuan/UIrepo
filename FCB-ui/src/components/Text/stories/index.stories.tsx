@@ -1,9 +1,11 @@
-import type { Meta } from '@storybook/react';
 import { Text } from "FCB-ui";
-import { Default } from './Default.stories';
-import DefaultSource from "./Default.stories?raw";
+
+import type { Meta } from '@storybook/react';
+
 import { Change } from './Change.stories';
 import  ChangeSource  from './Change.stories?raw';
+import { Default } from './Default.stories';
+import DefaultSource from "./Default.stories?raw";
 const meta = {
   title: 'components/Text',
   component: Text,

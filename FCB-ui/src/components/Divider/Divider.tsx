@@ -1,7 +1,10 @@
 import React from "react"
-import type { ForwardRefComponent } from "../../utils/types";
-import { dividerClassNames, useBaseStyles, useHorizontalStyles, useVerticalStyles } from "./useDividerStyles.styles";
+
 import { mergeClasses } from "@griffel/react";
+
+import type { ForwardRefComponent } from "../../utils/types";
+
+import { dividerClassNames, useBaseStyles, useHorizontalStyles, useVerticalStyles } from "./useDividerStyles.styles";
 
 
 
@@ -52,7 +55,7 @@ export const Divider:ForwardRefComponent<DividerProps> = React.forwardRef(
     const baseStyles = useBaseStyles()
     const verticalStyles = useVerticalStyles()
     const horizontalStyles = useHorizontalStyles()
-    let hasChildren = children !== undefined && children !== null;
+    const hasChildren = children !== undefined && children !== null;
     return (
         <div ref={ref as React.Ref<HTMLDivElement>}
             className={

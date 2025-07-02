@@ -1,6 +1,7 @@
 import * as React from "react";
-import { useIsomorphicLayoutEffect } from "./useIsomorphicLayoutEffect";
+
 import { useConst } from "./useConst";
+import { useIsomorphicLayoutEffect } from "./useIsomorphicLayoutEffect";
 
 /**
  * @param fn - The callback function that will be used

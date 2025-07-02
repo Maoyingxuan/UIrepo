@@ -1,7 +1,9 @@
-import React from 'react';
 import type { ForwardRefComponent } from 'FCB-ui';
-import { textClassNames, useTextStyles } from './useTextStyles.styles';
+import React from 'react';
+
 import { mergeClasses } from '@griffel/react';
+
+import { textClassNames, useTextStyles } from './useTextStyles.styles';
 export type Textprops =  React.HTMLAttributes<HTMLDivElement> &  {
     /**
    * 父容器对齐

@@ -1,5 +1,5 @@
+import { Button, Flex, FlexProps,Radio, RadioGroup } from "FCB-ui";
 import React, { ChangeEvent } from "react";
-import { Flex, Radio, RadioGroup, Button, FlexProps } from "FCB-ui";
 
 const boxStyle: React.CSSProperties = {
   width: "100%",

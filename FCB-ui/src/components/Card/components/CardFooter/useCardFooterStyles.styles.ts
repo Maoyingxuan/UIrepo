@@ -1,4 +1,5 @@
 import { makeStyles, mergeClasses, shorthands } from "@griffel/react";
+
 import { CardFooterProps } from "./CardFooter.types";
 
 /**

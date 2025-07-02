@@ -1,6 +1,11 @@
 import React from "react"
-import { ForwardRefComponent } from "../../utils/types"
+
 import { mergeClasses } from "@griffel/react";
+
+import { ForwardRefComponent } from "../../utils/types"
+import { useControllableState } from "../../utils/useControllableState";
+import {useEventCallback} from "../../utils/useEventCallback";
+
 import {
   inputClassNames,
   useContentClassName,
@@ -10,8 +15,6 @@ import {
   useRootClassName,
   useRootStyles,
 } from "./useInputStyles.styles";
-import { useControllableState } from "../../utils/useControllableState";
-import {useEventCallback} from "../../utils/useEventCallback";
 type ContentType = {
   contentBefore?: React.ReactNode;
   contentAfter?: React.ReactNode;

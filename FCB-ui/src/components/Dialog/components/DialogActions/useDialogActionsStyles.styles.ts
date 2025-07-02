@@ -4,6 +4,7 @@ import {
   DIALOG_GAP,
   MEDIA_QUERY_BREAKPOINT_SELECTOR,
 } from "../../contexts/constants";
+
 import { DialogActionsProps } from "./DialogActions.types";
 
 export const dialogActionsClassNames = {

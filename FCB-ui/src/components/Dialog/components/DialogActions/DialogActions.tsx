@@ -1,6 +1,7 @@
-import * as React from "react";
-import type { DialogActionsProps } from "./DialogActions.types";
 import { ForwardRefComponent } from "FCB-ui";
+import * as React from "react";
+
+import type { DialogActionsProps } from "./DialogActions.types";
 import { useDialogActionsStyles } from "./useDialogActionsStyles.styles";
 
 /**

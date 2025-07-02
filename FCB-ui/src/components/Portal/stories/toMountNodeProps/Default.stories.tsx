@@ -1,5 +1,4 @@
-import * as React from "react";
-
+import type { PortalProps } from "FCB-ui";
 import {
   Button,
   FCBProvider,
@@ -7,7 +6,8 @@ import {
   tokens,
   toMountNodeProps,
 } from "FCB-ui";
-import type { PortalProps } from "FCB-ui";
+import * as React from "react";
+
 import { makeStyles, mergeClasses } from "@griffel/react";
 
 const useClasses = makeStyles({

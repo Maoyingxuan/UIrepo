@@ -1,13 +1,15 @@
-import type { Meta } from '@storybook/react';
 import { Input } from "FCB-ui";
-import { Default } from './Default.stories';
-import DefaultSource from "./Default.stories?raw";
-import { UseIdInput } from "./UseIdinput.stories";
-import UseIdInputSource from "./UseIdinput.stories?raw";
+
+import type { Meta } from '@storybook/react';
+
 import { Controlled } from "./Controlled.stories";
 import ControlledSource from "./Controlled.stories?raw";
-import unControlledSource from "./unControlled.stories?raw";
+import { Default } from './Default.stories';
+import DefaultSource from "./Default.stories?raw";
 import { uncontrolled } from "./unControlled.stories";
+import unControlledSource from "./unControlled.stories?raw";
+import { UseIdInput } from "./UseIdinput.stories";
+import UseIdInputSource from "./UseIdinput.stories?raw";
 const meta = {
   title: 'components/Input',
   component: Input,

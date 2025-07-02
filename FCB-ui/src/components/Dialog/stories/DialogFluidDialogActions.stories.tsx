@@ -1,12 +1,12 @@
 import {
+  Button,
   Dialog,
-  DialogTrigger,
+  DialogActions,
+  DialogBody,
+  DialogContent,
   DialogSurface,
   DialogTitle,
-  DialogBody,
-  DialogActions,
-  DialogContent,
-  Button,
+  DialogTrigger,
 } from "FCB-ui";
 
 const FluidActions = () => {

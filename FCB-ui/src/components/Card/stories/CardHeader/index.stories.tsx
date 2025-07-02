@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Meta } from "@storybook/react";
 import { CardHeader } from "FCB-ui";
-import Default from "./CardHeaderDefault.stories";
 
+import { Meta } from "@storybook/react";
+
+import Default from "./CardHeaderDefault.stories";
 import DefaultSource from "./CardHeaderDefault.stories.tsx?raw";
 
 (Default as any).parameters = {

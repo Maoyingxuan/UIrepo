@@ -1,5 +1,5 @@
+import { Button, Divider,Space } from "FCB-ui";
 import React from "react";
-import { Button, Space, Divider } from "FCB-ui";
 
 const Split: React.FC = () => (
   <Space size={[8, 16]} split={<Divider vertical style={{ height: "100%" }} />}>

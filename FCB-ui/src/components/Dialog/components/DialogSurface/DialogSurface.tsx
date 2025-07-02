@@ -1,21 +1,23 @@
-import * as React from "react";
 import {
   type ForwardRefComponent,
   useIsomorphicLayoutEffect,
 } from "FCB-ui";
-import { DialogSurfaceProps } from "./DialogSurface.types";
 import { Portal } from "FCB-ui";
+import { FCBProvider } from "FCB-ui";
+import * as React from "react";
+
+import { useEventCallback } from "../../../../utils/useEventCallback";
 import {
   DialogContextValue,
   DialogSurfaceProvider,
   useDialogContext,
 } from "../../contexts";
-import { useEventCallback } from "../../../../utils/useEventCallback";
+import { isResolvedShorthand } from "../../utils/isResolvedShorthand";
+import { useDisableBodyScroll } from "../../utils/useDisableBodyScroll";
+
+import { DialogSurfaceProps } from "./DialogSurface.types";
 import { useDialogSurfaceContextValues } from "./useDialogSurfaceContextValues";
 import { useDialogSurfaceStyles } from "./useDialogSurfaceStyles.styles";
-import { FCBProvider } from "FCB-ui";
-import { useDisableBodyScroll } from "../../utils/useDisableBodyScroll";
-import { isResolvedShorthand } from "../../utils/isResolvedShorthand";
 /**
  * DialogSurface component represents the visual part of a `Dialog` as a whole,
  * it contains everything that should be visible.

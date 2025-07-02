@@ -1,7 +1,9 @@
 import { ForwardRefComponent } from "FCB-ui"
 import React, { ReactNode } from "react"
-import { labelClassNames,useStyles } from "./useLabelStyles.styles";
+
 import { mergeClasses } from "@griffel/react";
+
+import { labelClassNames,useStyles } from "./useLabelStyles.styles";
 export type Labelprops =  React.LabelHTMLAttributes<HTMLLabelElement> &  {
       /**
    * 禁用

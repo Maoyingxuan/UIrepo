@@ -1,10 +1,11 @@
-import { teamsLightTheme } from "FCB-ui";
 import type {
   FontFamilyTokens,
   FontSizeTokens,
   FontWeightTokens,
   LineHeightTokens,
 } from "FCB-ui";
+import { teamsLightTheme } from "FCB-ui";
+
 import { makeStyles } from "@griffel/react";
 const theme = teamsLightTheme;
 

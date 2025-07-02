@@ -1,5 +1,7 @@
-import { makeStyles, mergeClasses } from "@griffel/react";
 import { tokens } from "FCB-ui";
+
+import { makeStyles, mergeClasses } from "@griffel/react";
+
 import { useThemeStyleTag } from "./useThemeStyleTag";
 
 const FCBProviderClassNames = {

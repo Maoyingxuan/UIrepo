@@ -1,13 +1,16 @@
+import { textClassNames,tokens } from "FCB-ui";
+
 import {
-  shorthands,
+  makeResetStyles,
   makeStyles,
   mergeClasses,
-  makeResetStyles,
+  shorthands,
 } from "@griffel/react";
-import { tokens, textClassNames } from "FCB-ui";
-import { cardPreviewClassNames } from "../CardPreview/useCardPreviewStyles.styles";
-import { cardHeaderClassNames } from "../CardHeader/useCardHeaderStyles.styles";
+
 import { cardFooterClassNames } from "../CardFooter/useCardFooterStyles.styles";
+import { cardHeaderClassNames } from "../CardHeader/useCardHeaderStyles.styles";
+import { cardPreviewClassNames } from "../CardPreview/useCardPreviewStyles.styles";
+
 import { CardProps } from "./Card.types";
 
 /**

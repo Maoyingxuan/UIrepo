@@ -1,8 +1,8 @@
 import {
-  statusSharedColorNames,
-  personaSharedColorNames,
-  unusedSharedColorNames,
   mappedStatusColorNames,
+  personaSharedColorNames,
+  statusSharedColorNames,
+  unusedSharedColorNames,
 } from './sharedColorNames';
 
 /**

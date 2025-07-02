@@ -1,5 +1,6 @@
-import { makeStyles } from "@griffel/react";
 import { Button } from "FCB-ui";
+
+import { makeStyles } from "@griffel/react";
 const useStyles = makeStyles({
   longText: {
     width: "280px",

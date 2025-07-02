@@ -1,13 +1,14 @@
-import { makeStyles } from "@griffel/react";
 import {
   FCBProvider,
-  tokens,
-  webLightTheme,
-  teamsLightTheme,
   teamsDarkTheme,
-  webDarkTheme,
   teamsHighContrastTheme,
+  teamsLightTheme,
+  tokens,
+  webDarkTheme,
+  webLightTheme,
 } from "FCB-ui";
+
+import { makeStyles } from "@griffel/react";
 
 const themeMap = {
   webLight: webLightTheme,

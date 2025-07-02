@@ -1,4 +1,4 @@
-import type { Theme, PartialTheme } from "FCB-ui";
+import type { PartialTheme,Theme } from "FCB-ui";
 
 /**
  * 根据theme，创建一个css规则，

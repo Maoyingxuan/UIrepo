@@ -1,10 +1,10 @@
-import * as React from "react";
+import type { ShadowTokens } from "FCB-ui";
 import {
   teamsDarkTheme,
   teamsHighContrastTheme,
   teamsLightTheme,
 } from "FCB-ui";
-import type { ShadowTokens } from "FCB-ui";
+import * as React from "react";
 
 // FIXME: hardcoded theme
 const theme = {

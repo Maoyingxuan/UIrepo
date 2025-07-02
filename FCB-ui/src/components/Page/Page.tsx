@@ -1,6 +1,6 @@
+import { Header } from 'FCB-ui';
 import React from 'react';
 
-import { Header } from 'FCB-ui';
 import './page.css';
 
 type User = {

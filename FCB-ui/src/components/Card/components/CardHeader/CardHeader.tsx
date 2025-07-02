@@ -1,5 +1,6 @@
-import * as React from "react";
 import { type ForwardRefComponent } from "FCB-ui";
+import * as React from "react";
+
 import { CardHeaderProps } from "./CardHeader.types";
 import { useCardHeaderStyles } from "./useCardHeaderStyles.styles";
 

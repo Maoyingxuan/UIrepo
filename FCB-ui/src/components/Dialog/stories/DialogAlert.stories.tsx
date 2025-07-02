@@ -1,12 +1,12 @@
 import {
+  Button,
   Dialog,
-  DialogTrigger,
+  DialogActions,
+  DialogBody,
+  DialogContent,
   DialogSurface,
   DialogTitle,
-  DialogContent,
-  DialogBody,
-  DialogActions,
-  Button,
+  DialogTrigger,
 } from "FCB-ui";
 
 const Alert = () => {

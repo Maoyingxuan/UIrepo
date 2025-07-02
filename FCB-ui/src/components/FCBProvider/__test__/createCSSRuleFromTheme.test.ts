@@ -1,7 +1,7 @@
 
-import { createCSSRuleFromTheme } from "../createCSSRuleFromTheme";
+import { describe, expect,it } from "vitest";
 
-import { describe, it, expect } from "vitest";
+import { createCSSRuleFromTheme } from "../createCSSRuleFromTheme";
 
 describe("createCSSRuleFromTheme", () => {
   it("handles undefined theme", () => {

@@ -1,4 +1,5 @@
 import { makeStyles, mergeClasses } from "@griffel/react";
+
 import { RadioGroupProps } from "./RadioGroup.types";
 
 export const radioGroupClassNames = {

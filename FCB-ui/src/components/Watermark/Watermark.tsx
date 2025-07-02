@@ -1,12 +1,13 @@
 import { WatermarkProps } from "FCB-ui";
 import React, { useEffect, useRef } from "react";
 import { Children } from "react"
-import useWatermark, { FontGap } from "./hooks/useWatermark";
+
 import getClips from "./hooks/getClips";
-import { getPixelRatio, reRendering } from "./utils";
-import useRafDebounce from "./hooks/useRafDebounce";
-import { useWatermarkStyles } from "./useWatermarkStyles.styles";
 import useMutateObserver from "./hooks/useMutateObserver";
+import useRafDebounce from "./hooks/useRafDebounce";
+import useWatermark, { FontGap } from "./hooks/useWatermark";
+import { useWatermarkStyles } from "./useWatermarkStyles.styles";
+import { getPixelRatio, reRendering } from "./utils";
 
 export const Watermark: React.FC<WatermarkProps> = (props) => {
     const {

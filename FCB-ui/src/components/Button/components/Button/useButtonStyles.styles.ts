@@ -1,14 +1,16 @@
+import { createCustomFocusIndicatorStyle,tokens } from "FCB-ui";
 import {
   iconFilledClassName,
   iconRegularClassName,
 } from "fish-ui-sy-react-icons";
-import { tokens, createCustomFocusIndicatorStyle } from "FCB-ui";
+
 import {
-  shorthands,
-  makeStyles,
   makeResetStyles,
+  makeStyles,
   mergeClasses,
+  shorthands,
 } from "@griffel/react";
+
 import { ButtonProps } from "./Button.types";
 
 export const buttonClassNames = {

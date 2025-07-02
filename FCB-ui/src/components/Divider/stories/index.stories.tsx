@@ -1,5 +1,7 @@
-import type { Meta } from '@storybook/react';
 import { Divider } from "FCB-ui";
+
+import type { Meta } from '@storybook/react';
+
 import { Default } from './Default.stories';
 import DefaultSource from "./Default.stories?raw";
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
